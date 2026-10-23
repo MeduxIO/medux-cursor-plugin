@@ -1,0 +1,10 @@
+{
+  "name": "medux",
+  "displayName": "Medux",
+  "description": "AI media generation and editing from Cursor: video, image, speech, voice cloning, avatars, and PDF/audio/video tools via the Medux remote MCP server.",
+  "version": "0.1.0",
+  "author": { "name": "Medux" },
+  "homepage": "https://medux.io",
+  "license": "MIT",
+  "keywords": ["mcp", "video", "image", "tts", "voice-clone", "avatar", "media"]
+}
