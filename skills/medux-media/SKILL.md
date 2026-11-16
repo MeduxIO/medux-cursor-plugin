@@ -7,6 +7,9 @@ description: Use the Medux MCP tools to generate and edit video, images, speech 
 
 Medux tools are asynchronous. Most generation tools return a `task_id`; poll it with `medux_task_query` until the status is `SUCCEEDED`, then use `output_url`.
 
+## Account checks
+`medux_health_check`, `medux_account_get` and `medux_balance_get` create no task; use `medux_balance_get` to confirm credits before expensive jobs.
+
 ## Local files
 1. Call `medux_file_create_upload_url` with `media_type` (e.g. `AUDIO`) and `extension`.
 2. HTTP PUT the raw file to the returned `upload_url` with a matching `Content-Type`.

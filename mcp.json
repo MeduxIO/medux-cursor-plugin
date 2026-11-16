@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "medux": {
-      "url": "https://medux.io/api/mcp/v1",
+      "url": "https://medux.io/mcp",
       "headers": {
         "Authorization": "Bearer ${env:MEDUX_API_KEY}"
       }
