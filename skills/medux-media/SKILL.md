@@ -5,6 +5,8 @@ description: Use the Medux MCP tools to generate and edit video, images, speech 
 
 # Medux media workflow
 
+> Website page: <https://medux.io/overview/skills>
+
 Medux tools are asynchronous. Most generation tools return a `task_id`; poll it with `medux_task_query` until the status is `SUCCEEDED`, then use `output_url`.
 
 ## Account checks
